@@ -84,7 +84,7 @@ body {
 }
 
 .items {
-	width: 80%;
+	max-width: 80%;
 	height: 5400px;
 	display: flex;
 	flex-wrap: wrap;
@@ -135,6 +135,7 @@ button {
 
 h5 {
 	color: #222;
+	padding-left: 20px;
 }	
 
 .categories>div {
@@ -223,7 +224,6 @@ footer {
 	width: 261px;
 	border: 1px solid black;
 	display: flex;
-	flex-direction: column;
 }
 
 .tempdivpic {
@@ -271,7 +271,9 @@ footer {
 	line-height: 1.6;
 }
 
-
-
+a {
+	text-decoration: none;
+	color: #444;
+}
 
 
